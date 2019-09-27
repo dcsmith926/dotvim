@@ -13,6 +13,9 @@ set softtabstop=4
 " show line numbers
 set number
 
+" have pathogen initialize any plugins
+execute pathogen#infect()
+
 "enable syntax highlighting
 syntax enable
 
@@ -20,8 +23,8 @@ syntax enable
 filetype plugin on
 filetype indent on
 
-" have pathogen initialize any plugins
-execute pathogen#infect()
+" set colorscheme
+colorscheme dracula
 
 " toggle NERDTree view with Ctrl+O
 map <C-o> :NERDTreeToggle<CR>
