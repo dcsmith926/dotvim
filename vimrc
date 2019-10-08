@@ -10,6 +10,9 @@ set shiftwidth=4
 set tabstop=4
 set softtabstop=4
 
+" allow to edit one character beyond end of lines
+set virtualedit=onemore
+
 " show line numbers
 set number
 
@@ -31,4 +34,3 @@ map <C-o> :NERDTreeToggle<CR>
 
 " have NERDTree display hidden files
 let NERDTreeShowHidden=1
-
