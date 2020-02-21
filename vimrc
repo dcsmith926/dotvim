@@ -10,9 +10,6 @@ set shiftwidth=4
 set tabstop=4
 set softtabstop=4
 
-" allow to edit one character beyond end of lines
-set virtualedit=onemore
-
 " show line numbers
 set number
 
