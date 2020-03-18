@@ -31,3 +31,9 @@ map <C-o> :NERDTreeToggle<CR>
 
 " have NERDTree display hidden files
 let NERDTreeShowHidden=1
+
+" disable that annoying bell
+set noerrorbells visualbell t_vb=
+if has('autocmd')
+    autocmd GUIEnter * set visualbell t_vb=
+endif
