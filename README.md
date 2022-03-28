@@ -4,14 +4,10 @@
 
 `git clone https://github.com/dcsmith926/dotvim.git ~/.vim`
 
-## Create symlinks:
+## Create symlinks (whichever one(s) apply to you):
 
 `ln -s ~/.vim/vimrc ~/.vimrc`
 
 `ln -s ~/.vim/gvimrc ~/.gvimrc`
 
-## Init submodules (i.e. plugins)
-
-`git submodule init`
-
-`git submodule update`
+`ln -s ~/.vim/vimrc ~/.config/nvim/init.vim`
